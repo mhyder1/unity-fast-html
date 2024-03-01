@@ -1,0 +1,120 @@
+body {
+    background-color: #f1f1f1;
+  }
+  
+  .header {
+    height: 500px;
+    padding: 10px;
+
+    background-image: url("/images/header.webp"); 
+    background-position: center bottom; 
+    background-size: cover; 
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+  
+  .stat {
+    border: 1px solid darkgray;
+    padding: 3px;
+    /* margin-top: 20px; */
+    border-radius: 3px;
+    /* width: 200px; */
+  }
+  
+  .stat-numbers {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat-title {
+    margin: 0;
+    font-size: small;
+    color: darkgray;
+  }
+  
+  .stat-number {
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .stats {
+    /* display: flex;
+    justify-content: space-around;
+    margin-top: 10px; */
+    margin: 20px auto;
+  }
+  
+  .card-details {
+    width: 90%;
+    /* height: 300px; */
+    /* margin-bottom: 10px; */
+    margin: 10px auto;
+  }
+  
+  .card-profile {
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .card-details-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-display {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0 80px; */
+  }
+  
+  .link {
+    color: #038156;
+    font-weight: 500;
+  }
+  
+  .header-logo {
+    width: 100px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    background-color: #f2fac8;
+  }
+  
+  /* Desktop */
+  @media (min-width: 768px) {
+    .header h1 {
+      font-size: 70px;
+      width: 75%;
+      line-height: 4.5rem;
+    }
+  
+    .card-profile {
+      width: 40%;
+      margin: 0 auto;
+    }
+  
+    .custom-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* @media (max-width: 767px) {
+    .custom-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  } */
+  
