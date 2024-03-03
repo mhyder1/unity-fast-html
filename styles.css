@@ -6,8 +6,8 @@ body {
     height: 500px;
     padding: 10px;
 
-    background-image: url("images/header.webp"); 
-    background-position: center bottom; 
+    background-image: url("images/header.jpg"); 
+    background-position: center; 
     background-size: cover; 
     color: white;
   }
@@ -85,7 +85,71 @@ body {
     width: 100px;
     /* border: 1px solid; */
     border-radius: 50%;
-    background-color: #f2fac8;
+    background-color: #fff5ff;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+  }
+
+  footer img {
+    width: 60px;
+  }
+
+  .back-button {
+    margin-left: 12px;
+  }
+
+  .submit-button {
+    margin-left: 10px;
+  }
+
+  .landing {
+    background-image: url("images/header.jpg"); 
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;
+  }
+
+  .landing .header-logo {
+    width: 200px;
+    /* background-color: #fff5ff; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .landing .link {
+    color: #10ac77;
+  }
+
+  .landing .attribution {
+    position: absolute;
+    bottom: 5px;
+    font-size: smaller;
+  }
+
+  .landing .container {
+    background-color: rgb(25 27 31 / 50%);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .pledge {
+    text-align: center;
+    padding: 20px;
+    font-size: 70px;
+  }
+
+  .pledge a {
+    color: white;
   }
   
   /* Desktop */

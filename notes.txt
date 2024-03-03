@@ -1,3 +1,18 @@
 https://unity-fasting.mohamedtammam.dev/
 
 https://mhyder1.github.io/unity-fast-html/
+
+logo:
+https://data.techforpalestine.org/img/logo.svg
+
+image attribution
+https://www.instagram.com/anadoluajansi/
+
+Photo:Belal Khaled/ @anadoluajansi
+
+logo color: #fff5ff
+
+changes:
+fixed back button
+pledge days from 5 - 10
+removed card footer icons
