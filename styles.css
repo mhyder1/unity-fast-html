@@ -6,7 +6,7 @@ body {
     height: 500px;
     padding: 10px;
 
-    background-image: url("/images/header.webp"); 
+    background-image: url("images/header.webp"); 
     background-position: center bottom; 
     background-size: cover; 
     color: white;
