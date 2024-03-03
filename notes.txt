@@ -16,3 +16,6 @@ changes:
 fixed back button
 pledge days from 5 - 10
 removed card footer icons
+added new landing page
+added new header image
+finished footer

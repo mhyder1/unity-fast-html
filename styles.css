@@ -112,7 +112,9 @@ body {
   .landing {
     background-image: url("images/header.jpg"); 
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
     color: white;
     padding-top: 20px;
   }
@@ -131,8 +133,8 @@ body {
   }
 
   .landing .attribution {
-    position: absolute;
-    bottom: 5px;
+    /* position: absolute;
+    bottom: 5px; */
     font-size: smaller;
   }
 
