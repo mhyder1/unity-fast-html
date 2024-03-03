@@ -170,6 +170,10 @@ body {
     .custom-grid {
       grid-template-columns: repeat(1, 1fr);
     }
+
+    .pledge {
+      font-size: 70px;
+    }
   }
   
   .custom-grid {
@@ -178,9 +182,7 @@ body {
     gap: 20px;
   }
 
-  .pledge {
-    font-size: 70px;
-  }
+
   
   /* @media (max-width: 767px) {
     .custom-grid {
