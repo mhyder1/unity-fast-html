@@ -95,6 +95,7 @@ body {
     justify-content: center;
     padding: 10px;
     background-color: white;
+    margin-top: 20px;
   }
 
   footer img {
@@ -152,6 +153,21 @@ body {
 
   .pledge a {
     color: white;
+  }
+
+  .family-img {
+    background-image: url(images/flag.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .family-img img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 12px;
+    
   }
   
   /* Desktop */
